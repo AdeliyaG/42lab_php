@@ -1,93 +1,78 @@
 <?php
 
-$cells = array(0);
-$code = $_POST['bfCode'];
-$enter = $_POST['enterData'];
+if (isset($_POST["send"])) {
+    $cells = array(0);
+    $code = $_POST['bfCode'];
+    $enter = $_POST['enterData'];
 
-$indexCell = 0;
-$indexEnter = 0;
-$indexCode = 0;
+    $indexCell = 0;
+    $indexEnter = 0;
+    $indexCode = 0;
 
-$codeArr = str_split($code);
-$enterArr = str_split($enter);
+    $codeArr = str_split($code);
+    $enterArr = str_split($enter);
 
-$output = '';
+    for ($indexCode; $indexCode < count($codeArr); $indexCode++) {
+        switch ($codeArr[$indexCode]) {
+            case '>':
+                $indexCell++;
+                break;
 
+            case '<':
+                $indexCell--;
+                break;
 
-foreach ($codeArr as $item) {
-    switch ($item) {
-        case '>':
-            $indexCell++;
-            $indexCode++;
-            break;
+            case '+':
+                $cells[$indexCell]++;
+                break;
 
-        case '<':
-            $indexCell--;
-            $indexCode++;
-            break;
+            case '-':
+                $cells[$indexCell]--;
+                break;
 
-        case '+':
-            $cells[$indexCell]++;
-            $indexCode++;
-            break;
+            case '.':
+                print(chr($cells[$indexCell]));
+                break;
 
-        case '-':
-            $cells[$indexCell]--;
-            $indexCode++;
-            break;
+            case ',':
+                $cells[$indexCell] = ord($enterArr[$indexEnter]);
+                $indexEnter++;
+                break;
 
-        case '.':
-            $output .= chr($cells[$indexCell]);
-            break;
-
-        case ',':
-            $cells[$indexCell] = ord($enterArr[$indexEnter]);
-            $indexEnter++;
-            $indexCode++;
-            break;
-
-        case '[':
-            if ($cells[$indexCell] == 0) {
-                $brc = 1;
-                while ($brc != 0) {
-                    switch ($codeArr[$indexCell]) {
-                        case '[' :
-                            $brc++;
-                            break;
-                        case ']' :
-                            $brc--;
-                            break;
+            case '[':
+                if ($cells[$indexCell] == 0) {
+                    $brc = 1;
+                    while ($brc != 0) {
+                        switch ($codeArr[$indexCell]) {
+                            case '[' :
+                                $brc++;
+                                break;
+                            case ']' :
+                                $brc--;
+                                break;
+                        }
                     }
                 }
-            }
-            $indexCode++;
-            break;
+                break;
 
-        case ']':
-            if ($cells[$indexCell] != 0) {
-                $brc = 1;
-                while ($brc != 0) {
-//                    switch ($codeArr[$indexCode--]) {
-//                        case '[' :
-//                            $brc--;
-//                            break;
-//                        case ']' :
-//                            $brc++;
-//                            break;
-//                    }
-                    if ($codeArr[$indexCode--] = '[') {
-                        $brc--;
-                    } else if ($codeArr[$indexCode--] = ']') {
-                        $brc++;
-                    } else {
+            case ']':
+                if ($cells[$indexCell] != 0) {
+                    $brc = 1;
+                    while ($brc != 0) {
                         $indexCode--;
+                        switch ($codeArr[$indexCode]) {
+                            case '[' :
+                                $brc--;
+                                break;
+                            case ']' :
+                                $brc++;
+                                break;
+                        }
                     }
                 }
-            }
-            $indexCode++;
-            break;
+                break;
+        }
     }
+} else {
+    include "form.html";
 }
-echo $output;
-
-?>
