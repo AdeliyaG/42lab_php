@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e8b89cf-393f-4e1d-b9b2-af8333aafa9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/.idea/2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,25 +51,50 @@
       <option name="presentableId" value="Default" />
       <updated>1582815589697</updated>
       <workItem from="1582815591226" duration="1618000" />
-      <workItem from="1582817440137" duration="2985000" />
+      <workItem from="1582817440137" duration="3905000" />
+      <workItem from="1582831711593" duration="2025000" />
     </task>
+    <task id="LOCAL-00001" summary="homework 1 added">
+      <created>1582822511081</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582822511081</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="homework 1 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 1 added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="349" y="0" key="#PHP" timestamp="1582816501523">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="349" y="0" key="#PHP/0.0.1280.689@0.0.1280.689" timestamp="1582816501523" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1582822510453">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1582822510453" />
+    <state x="421" y="87" key="FileChooserDialogImpl" timestamp="1582831757943">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="87" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1582831757943" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1582820970145">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1582820970145" />
-    <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1582817445010">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1582822517805">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1582817445010" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1582822517805" />
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1582832683576">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1582832683576" />
   </component>
 </project>
