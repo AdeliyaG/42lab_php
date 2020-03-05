@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e8b89cf-393f-4e1d-b9b2-af8333aafa9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../2/.idea/2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7e8b89cf-393f-4e1d-b9b2-af8333aafa9d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
