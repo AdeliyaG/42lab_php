@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e8b89cf-393f-4e1d-b9b2-af8333aafa9d" name="Default Changelist" comment="" />
+    <list default="true" id="7e8b89cf-393f-4e1d-b9b2-af8333aafa9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../3/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +19,7 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="1YOZR72Din8itcuP5WMa6T8yROE" />
@@ -48,6 +54,9 @@
       <workItem from="1582815591226" duration="1618000" />
       <workItem from="1582817440137" duration="3905000" />
       <workItem from="1582831711593" duration="2025000" />
+      <workItem from="1583420376542" duration="19000" />
+      <workItem from="1583426213492" duration="65000" />
+      <workItem from="1583426409291" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="homework 1 added">
       <created>1582822511081</created>
