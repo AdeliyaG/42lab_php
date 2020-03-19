@@ -1,4 +1,6 @@
 <?php
+include "generator.php";
+
 if (isset($_POST["send"])) {
     $text = $_POST['text'];
     $strings = explode("\n", $text); // разделяет текст по строкам
@@ -22,10 +24,10 @@ if (isset($_POST["send"])) {
 
     print_r(json_encode($json, JSON_PRETTY_PRINT));
 
-    print_r("<br/>"); //todo
+    print_r("<br/>"."<br/>");
 
-    print_r("hellow");
-
+    $arr = check($strings, $sumWeight);
+    print_r(json_encode($arr, JSON_PRETTY_PRINT));
 
 } else {
     include "form.html";
