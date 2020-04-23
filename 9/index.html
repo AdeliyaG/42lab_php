@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="index.php" method="POST" id="form">
+    <label for="text">Text:</label>
+    <input name="text" id="text"/><p>
+
+    <label>Choose logger type:</label>
+    <p style="font-style: italic">
+    <input type="radio" name="logger" value="fileWriter" onclick="getFileSettings()">File Writer
+    <input type="radio" name="logger" value="browserPrinter" onclick="getBrowserSettings()">Browser Printer</p>
+
+    <div hidden id="filesettings">
+        <label for="filename">File name:</label>
+        <input name="filename" id="filename"/><p>
+    </div>
+
+    <div hidden id="browsersettings">
+        <p><input type="radio" name="choice" value="time">time</p>
+        <p><input type="radio" name="choice" value="dateAndTime">date and time</p>
+        <p><input type="radio" name="choice" value="off">off</p>
+    </div>
+
+    <input type="submit" name="send" style="margin-top: 5px">
+</form>
+
+<script>
+    function getFileSettings() {
+        document.getElementById("filesettings").hidden = false;
+        document.getElementById("browsersettings").hidden = true;
+    }
+
+    function getBrowserSettings() {
+        document.getElementById("browsersettings").hidden = false;
+        document.getElementById("filesettings").hidden = true;
+    }
+</script>
+</body>
+</html>
