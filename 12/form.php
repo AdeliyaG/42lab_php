@@ -5,12 +5,15 @@
     <title>Title</title>
 </head>
 <body>
-<form action="index2.php" method="POST">
-    <input type="text" name="enterData" value="
-    <?php
-        if(iss) {}
-    ?>
-    ">
+<form action="index.php" method="GET">
+    <input type="text"
+           name="enterData"
+           value="<?php
+           if (isset($_COOKIE["string"])) {
+               echo $_COOKIE["string"];
+           }
+           ?>"
+    >
     </br>
     <input type="submit" name="send" style="margin-top: 5px">
 </form>

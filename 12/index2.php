@@ -1,17 +1,18 @@
 <?php
 
-if (isset($_POST["send"])) {
-    $str = $_POST['enterData'];
+if (isset($_GET["send"])) {
+    $str = $_GET['enterData'];
     $newStr = change($str)[0];
     $countChanges = change($str)[1];
     print ($newStr);
-    print (" ".$countChanges);
+    print (" " . $countChanges);
 
 } else {
-    include "form.html";
+    include "form.php";
 }
 
-function check($str) {
+function check($str)
+{
     $countChanges = 0;
     for ($i = 0; $i < strlen($str); $i++) {
         switch ($str[$i]) {
@@ -46,7 +47,7 @@ function change($str)
     foreach ($check as $ch) {
         $newStr .= $ch;
     }
-    $countChanges = $check -> getReturn();
+    $countChanges = $check->getReturn();
     return [$newStr, $countChanges];
 }
 
