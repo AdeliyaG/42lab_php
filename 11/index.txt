@@ -1,0 +1,7 @@
+{
+    "type": "alert bro",
+    "time": "2020-05-20 07:33:19",
+    "context": [
+        "Alert content"
+    ]
+}
