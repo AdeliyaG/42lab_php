@@ -40,4 +40,17 @@ class ComplexNumberTest extends TestCase
         $expected = 22.3607;
         $this->assertEquals($expected, $complexNum->abs());
     }
+
+    public function testDivByZero()
+    {
+        $complexNum = new ComplexNumber(10, 20);
+        $complexNum->div(new ComplexNumber(0, 0));
+        $this->expectOutputString("Divider is zero.");
+    }
+
+    function testToString() {
+        $complexNum = new ComplexNumber(10, 20);
+        $expected = "10 20";
+        $this->assertEquals($expected, $complexNum->__toString());
+    }
 }

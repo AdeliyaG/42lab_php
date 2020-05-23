@@ -6,7 +6,7 @@ class ComplexNumber
 {
     public float $a, $b;
 
-    function __construct($a, $b)
+    function __construct(float $a, float $b)
     {
         $this->a = $a;
         $this->b = $b;
@@ -39,9 +39,14 @@ class ComplexNumber
     function div(ComplexNumber $number)
     {
         $c = $this->a;
-        $this->a = ($this->a * $number->a + $this->b * $number->b) / (pow($number->a, 2) + pow($number->b, 2));
-        $this->b = ($this->b * $number->a + $c * $number->b) / (pow($number->a, 2) + pow($number->b, 2));
-        return new ComplexNumber($this->a, $this->b);
+        $divider = (pow($number->a, 2) + pow($number->b, 2));
+        if ($divider != 0) {
+            $this->a = ($this->a * $number->a + $this->b * $number->b) / $divider;
+            $this->b = ($this->b * $number->a + $c * $number->b) / $divider;
+            return new ComplexNumber($this->a, $this->b);
+        } else {
+            return print "Divider is zero.";
+        }
     }
 
     function abs()
