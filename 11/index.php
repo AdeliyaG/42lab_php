@@ -7,5 +7,5 @@ use logger\Logger;
 
 $logger = new Logger("index.txt");
 $context = array();
-array_push($context, "Alert content");
-$logger->log("alert", "Alert message", $context);
+array_push($context, "Info content");
+$logger->info("info message", $context);
