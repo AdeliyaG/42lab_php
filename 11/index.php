@@ -9,3 +9,4 @@ $logger = new Logger("index.txt");
 $context = array();
 array_push($context, "Info content");
 $logger->info("info message", $context);
+$logger->info("info message", $context);

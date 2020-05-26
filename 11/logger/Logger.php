@@ -8,6 +8,7 @@ use Psr\Log\LogLevel;
 class Logger implements LoggerInterface
 {
     private $file;
+    private $arr = array();
 
     public function __construct($filename)
     {
@@ -18,17 +19,16 @@ class Logger implements LoggerInterface
     {
         $date = date("Y-m-d H:i:s");
 
-        $json = json_encode([
-            'type' => $level,
+        $json = ['type' => $level,
             'time' => $date,
-            'context' => $context],
-            JSON_PRETTY_PRINT);
+            'context' => $context];
 
-        fwrite($this->file, $json.", \n");
+        array_push($this->arr, $json);
     }
 
     function __destruct()
     {
+        fwrite($this->file, json_encode($this->arr, JSON_PRETTY_PRINT).",\n");
         fclose($this->file);
     }
 

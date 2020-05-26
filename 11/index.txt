@@ -1,14 +1,32 @@
-{
-    "type": "info",
-    "time": "2020-05-23 15:43:00",
-    "context": [
-        "Info content"
-    ]
-}, 
-{
-    "type": "info",
-    "time": "2020-05-23 15:43:14",
-    "context": [
-        "Info content"
-    ]
-}, 
+[
+    {
+        "type": "info",
+        "time": "2020-05-26 13:25:04",
+        "context": [
+            "Info content"
+        ]
+    },
+    {
+        "type": "info",
+        "time": "2020-05-26 13:25:04",
+        "context": [
+            "Info content"
+        ]
+    }
+],
+[
+    {
+        "type": "info",
+        "time": "2020-05-26 13:25:10",
+        "context": [
+            "Info content"
+        ]
+    },
+    {
+        "type": "info",
+        "time": "2020-05-26 13:25:10",
+        "context": [
+            "Info content"
+        ]
+    }
+],
