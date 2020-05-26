@@ -1,32 +1,16 @@
 [
     {
         "type": "info",
-        "time": "2020-05-26 13:25:04",
+        "time": "2020-05-26 16:10:26",
         "context": [
             "Info content"
         ]
     },
     {
         "type": "info",
-        "time": "2020-05-26 13:25:04",
+        "time": "2020-05-26 16:10:34",
         "context": [
             "Info content"
         ]
     }
-],
-[
-    {
-        "type": "info",
-        "time": "2020-05-26 13:25:10",
-        "context": [
-            "Info content"
-        ]
-    },
-    {
-        "type": "info",
-        "time": "2020-05-26 13:25:10",
-        "context": [
-            "Info content"
-        ]
-    }
-],
+]

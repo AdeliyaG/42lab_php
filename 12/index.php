@@ -15,5 +15,4 @@ if (isset($_GET["send"])) {
 } else {
     include "form.php";
 }
-
 ?>

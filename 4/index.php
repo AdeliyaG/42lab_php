@@ -26,7 +26,7 @@ if (isset($_POST["send"])) {
 
     print_r("<br/>"."<br/>");
 
-    $arr = check($strings, $sumWeight);
+    $arr = check($json, $sumWeight);
     print_r(json_encode($arr, JSON_PRETTY_PRINT));
 
 } else {

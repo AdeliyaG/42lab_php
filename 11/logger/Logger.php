@@ -7,12 +7,13 @@ use Psr\Log\LogLevel;
 
 class Logger implements LoggerInterface
 {
-    private $file;
-    private $arr = array();
+    private $filename;
+    private $fileData;
 
     public function __construct($filename)
     {
-        $this->file = fopen($filename, 'a');
+        $this->filename = $filename;
+        $this->fileData = file_get_contents($filename);
     }
 
     public function log($level, $message, array $context = array())
@@ -23,13 +24,9 @@ class Logger implements LoggerInterface
             'time' => $date,
             'context' => $context];
 
-        array_push($this->arr, $json);
-    }
-
-    function __destruct()
-    {
-        fwrite($this->file, json_encode($this->arr, JSON_PRETTY_PRINT).",\n");
-        fclose($this->file);
+        $arr = json_decode($this->fileData, true);
+        $arr[] = $json;
+        file_put_contents($this->filename, json_encode($arr, JSON_PRETTY_PRINT));
     }
 
     /**

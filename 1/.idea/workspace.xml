@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e8b89cf-393f-4e1d-b9b2-af8333aafa9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../3/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +30,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -57,6 +53,8 @@
       <workItem from="1583420376542" duration="19000" />
       <workItem from="1583426213492" duration="65000" />
       <workItem from="1583426409291" duration="643000" />
+      <workItem from="1587220895402" duration="149000" />
+      <workItem from="1587662728905" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="homework 1 added">
       <created>1582822511081</created>
@@ -88,17 +86,17 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="87" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1582831757943" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1582820970145">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1587220920590">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1582820970145" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1587220920590" />
     <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1582822517805">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1582822517805" />
-    <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1582832683576">
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1587662729340">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1582832683576" />
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1587662729340" />
   </component>
 </project>
